@@ -63,4 +63,6 @@ jobs:
         with:
           app-name: 'chatbot-inundaciones'
           slot-name: 'Production'
+
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_11EE26E387824D7A927015E172D183C3 }}
+          startup-command: './startup.sh'
